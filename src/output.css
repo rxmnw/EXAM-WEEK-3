@@ -501,6 +501,9 @@
   .gap-\[2\] {
     gap: 2;
   }
+  .gap-\[2px\] {
+    gap: 2px;
+  }
   .gap-\[03\] {
     gap: 03;
   }
@@ -560,6 +563,9 @@
   }
   .gap-\[30xp\] {
     gap: 30xp;
+  }
+  .gap-\[35px\] {
+    gap: 35px;
   }
   .gap-\[40px\] {
     gap: 40px;
@@ -958,6 +964,11 @@
       width: 650px;
     }
   }
+  .lg\:flex-col-reverse {
+    @media (width >= 64rem) {
+      flex-direction: column-reverse;
+    }
+  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
@@ -966,6 +977,11 @@
   .lg\:items-center {
     @media (width >= 64rem) {
       align-items: center;
+    }
+  }
+  .lg\:justify-around {
+    @media (width >= 64rem) {
+      justify-content: space-around;
     }
   }
   .lg\:justify-between {
