@@ -337,6 +337,9 @@
   .gap-\[120px\] {
     gap: 120px;
   }
+  .rounded-\[1px\] {
+    border-radius: 1px;
+  }
   .rounded-\[5px\] {
     border-radius: 5px;
   }
@@ -363,6 +366,9 @@
   }
   .rounded-\[50px\] {
     border-radius: 50px;
+  }
+  .rounded-\[px\] {
+    border-radius: px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -397,6 +403,9 @@
   }
   .bg-\[\#191919\] {
     background-color: #191919;
+  }
+  .p-\[1px_40px\] {
+    padding: 1px 40px;
   }
   .p-\[5px_10px\] {
     padding: 5px 10px;
@@ -437,11 +446,17 @@
   .p-\[50px_30px\] {
     padding: 50px 30px;
   }
+  .p-\[px_40px\] {
+    padding: px 40px;
+  }
   .py-\[10px\] {
     padding-block: 10px;
   }
   .pt-\[30px\] {
     padding-top: 30px;
+  }
+  .pr-\[40px\] {
+    padding-right: 40px;
   }
   .pb-\[30px\] {
     padding-bottom: 30px;
@@ -454,6 +469,12 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-\[1px\] {
+    font-size: 1px;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
   }
   .text-\[14px\] {
     font-size: 14px;
@@ -472,6 +493,9 @@
   }
   .text-\[22px\] {
     font-size: 22px;
+  }
+  .text-\[24px\] {
+    font-size: 24px;
   }
   .text-\[25px\] {
     font-size: 25px;
@@ -540,6 +564,12 @@
   }
   .text-\[\#adadad\] {
     color: #adadad;
+  }
+  .text-\[1x\] {
+    color: 1x;
+  }
+  .text-\[15x\] {
+    color: 15x;
   }
   .text-\[white\] {
     color: white;
@@ -658,6 +688,11 @@
       width: 220px;
     }
   }
+  .lg\:w-\[300px\] {
+    @media (width >= 64rem) {
+      width: 300px;
+    }
+  }
   .lg\:w-\[330px\] {
     @media (width >= 64rem) {
       width: 330px;
@@ -708,6 +743,11 @@
       width: 712px;
     }
   }
+  .lg\:w-\[720px\] {
+    @media (width >= 64rem) {
+      width: 720px;
+    }
+  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
@@ -716,6 +756,11 @@
   .lg\:items-center {
     @media (width >= 64rem) {
       align-items: center;
+    }
+  }
+  .lg\:items-start {
+    @media (width >= 64rem) {
+      align-items: flex-start;
     }
   }
   .lg\:justify-between {
@@ -761,6 +806,11 @@
   .lg\:p-\[50px\] {
     @media (width >= 64rem) {
       padding: 50px;
+    }
+  }
+  .lg\:p-\[50px_0\] {
+    @media (width >= 64rem) {
+      padding: 50px 0;
     }
   }
   .lg\:p-\[70px_0\] {
