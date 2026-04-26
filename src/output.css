@@ -181,6 +181,9 @@
   .mt-\[0px\] {
     margin-top: 0px;
   }
+  .mt-\[5px\] {
+    margin-top: 5px;
+  }
   .mt-\[8\] {
     margin-top: 8;
   }
@@ -331,6 +334,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
   .gap-\[5px\] {
     gap: 5px;
   }
@@ -428,6 +434,9 @@
   .p-\[5px_10px\] {
     padding: 5px 10px;
   }
+  .p-\[10px_0px_10px_10px\] {
+    padding: 10px 0px 10px 10px;
+  }
   .p-\[10px_15px\] {
     padding: 10px 15px;
   }
@@ -460,6 +469,9 @@
   }
   .p-\[50px_10px\] {
     padding: 50px 10px;
+  }
+  .p-\[50px_20px\] {
+    padding: 50px 20px;
   }
   .p-\[50px_30px\] {
     padding: 50px 30px;
@@ -569,6 +581,9 @@
   }
   .text-\[\#0A84FF\] {
     color: #0A84FF;
+  }
+  .text-\[\#0a84ff\] {
+    color: #0a84ff;
   }
   .text-\[\#5e5e5e\] {
     color: #5e5e5e;
@@ -782,6 +797,11 @@
       width: 550px;
     }
   }
+  .lg\:w-\[600px\] {
+    @media (width >= 64rem) {
+      width: 600px;
+    }
+  }
   .lg\:w-\[650px\] {
     @media (width >= 64rem) {
       width: 650px;
@@ -865,6 +885,11 @@
   .lg\:p-\[100px\] {
     @media (width >= 64rem) {
       padding: 100px;
+    }
+  }
+  .lg\:p-\[100px_0\] {
+    @media (width >= 64rem) {
+      padding: 100px 0;
     }
   }
   .lg\:px-\[70px\] {
