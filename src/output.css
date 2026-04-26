@@ -1609,6 +1609,36 @@
       justify-content: space-between;
     }
   }
+  .lg\:justify-center {
+    @media (width >= 64rem) {
+      justify-content: center;
+    }
+  }
+  .lg\:gap-\[1px\] {
+    @media (width >= 64rem) {
+      gap: 1px;
+    }
+  }
+  .lg\:gap-\[2px\] {
+    @media (width >= 64rem) {
+      gap: 2px;
+    }
+  }
+  .lg\:gap-\[7px\] {
+    @media (width >= 64rem) {
+      gap: 7px;
+    }
+  }
+  .lg\:gap-\[10px\] {
+    @media (width >= 64rem) {
+      gap: 10px;
+    }
+  }
+  .lg\:gap-\[12px\] {
+    @media (width >= 64rem) {
+      gap: 12px;
+    }
+  }
   .lg\:gap-\[15px\] {
     @media (width >= 64rem) {
       gap: 15px;
@@ -1619,6 +1649,11 @@
       gap: 20px;
     }
   }
+  .lg\:gap-\[27px\] {
+    @media (width >= 64rem) {
+      gap: 27px;
+    }
+  }
   .lg\:gap-\[30px\] {
     @media (width >= 64rem) {
       gap: 30px;
@@ -1627,6 +1662,31 @@
   .lg\:gap-\[35px\] {
     @media (width >= 64rem) {
       gap: 35px;
+    }
+  }
+  .lg\:gap-\[77px\] {
+    @media (width >= 64rem) {
+      gap: 77px;
+    }
+  }
+  .lg\:gap-\[100px\] {
+    @media (width >= 64rem) {
+      gap: 100px;
+    }
+  }
+  .lg\:gap-\[125px\] {
+    @media (width >= 64rem) {
+      gap: 125px;
+    }
+  }
+  .lg\:gap-\[277px\] {
+    @media (width >= 64rem) {
+      gap: 277px;
+    }
+  }
+  .lg\:gap-\[px\] {
+    @media (width >= 64rem) {
+      gap: px;
     }
   }
   .lg\:rounded-\[30px\] {
