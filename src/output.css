@@ -238,6 +238,12 @@
   .h-\[450px\] {
     height: 450px;
   }
+  .w-\[1\] {
+    width: 1;
+  }
+  .w-\[10\] {
+    width: 10;
+  }
   .w-\[15px\] {
     width: 15px;
   }
@@ -256,8 +262,14 @@
   .w-\[98\%\] {
     width: 98%;
   }
+  .w-\[100\$\] {
+    width: 100$;
+  }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[100\] {
+    width: 100;
   }
   .w-\[190px\] {
     width: 190px;
@@ -273,6 +285,15 @@
   }
   .w-\[450px\] {
     width: 450px;
+  }
+  .w-\[1005\] {
+    width: 1005;
+  }
+  .w-\[full\] {
+    width: full;
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
@@ -307,11 +328,17 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[2px\] {
+    gap: 2px;
+  }
   .gap-\[5px\] {
     gap: 5px;
   }
   .gap-\[10px\] {
     gap: 10px;
+  }
+  .gap-\[12px\] {
+    gap: 12px;
   }
   .gap-\[15px\] {
     gap: 15px;
@@ -337,8 +364,17 @@
   .gap-\[120px\] {
     gap: 120px;
   }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
   .rounded-\[1px\] {
     border-radius: 1px;
+  }
+  .rounded-\[5\] {
+    border-radius: 5;
+  }
+  .rounded-\[5p\] {
+    border-radius: 5p;
   }
   .rounded-\[5px\] {
     border-radius: 5px;
@@ -404,14 +440,23 @@
   .bg-\[\#191919\] {
     background-color: #191919;
   }
+  .bg-\[\#202020\] {
+    background-color: #202020;
+  }
   .p-\[1px_40px\] {
     padding: 1px 40px;
   }
   .p-\[5px_10px\] {
     padding: 5px 10px;
   }
+  .p-\[5px_20px\] {
+    padding: 5px 20px;
+  }
   .p-\[6px_40px\] {
     padding: 6px 40px;
+  }
+  .p-\[10px\] {
+    padding: 10px;
   }
   .p-\[10px_15px\] {
     padding: 10px 15px;
@@ -434,6 +479,9 @@
   .p-\[25px\] {
     padding: 25px;
   }
+  .p-\[30px\] {
+    padding: 30px;
+  }
   .p-\[40px_20px\] {
     padding: 40px 20px;
   }
@@ -443,8 +491,14 @@
   .p-\[50px_10px\] {
     padding: 50px 10px;
   }
+  .p-\[50px_20px\] {
+    padding: 50px 20px;
+  }
   .p-\[50px_30px\] {
     padding: 50px 30px;
+  }
+  .p-\[55px_20px\] {
+    padding: 55px 20px;
   }
   .p-\[px_40px\] {
     padding: px 40px;
@@ -452,11 +506,29 @@
   .py-\[10px\] {
     padding-block: 10px;
   }
+  .py-\[20px\] {
+    padding-block: 20px;
+  }
+  .pt-\[10px\] {
+    padding-top: 10px;
+  }
   .pt-\[30px\] {
     padding-top: 30px;
   }
   .pr-\[40px\] {
     padding-right: 40px;
+  }
+  .pb-\[1\] {
+    padding-bottom: 1;
+  }
+  .pb-\[10\] {
+    padding-bottom: 10;
+  }
+  .pb-\[10p\] {
+    padding-bottom: 10p;
+  }
+  .pb-\[10px\] {
+    padding-bottom: 10px;
   }
   .pb-\[30px\] {
     padding-bottom: 30px;
@@ -466,6 +538,12 @@
   }
   .pb-\[50px\] {
     padding-bottom: 50px;
+  }
+  .pb-\[80px\] {
+    padding-bottom: 80px;
+  }
+  .pl-\[10px\] {
+    padding-left: 10px;
   }
   .text-center {
     text-align: center;
@@ -493,6 +571,9 @@
   }
   .text-\[22px\] {
     font-size: 22px;
+  }
+  .text-\[23px\] {
+    font-size: 23px;
   }
   .text-\[24px\] {
     font-size: 24px;
@@ -550,6 +631,9 @@
   .text-\[\#858585\] {
     color: #858585;
   }
+  .text-\[\#A6A6A6\] {
+    color: #A6A6A6;
+  }
   .text-\[\#B3B3B2\] {
     color: #B3B3B2;
   }
@@ -584,6 +668,10 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
+  }
   .marker\:text-\[\#0A84FF\] {
     & *::marker {
       color: #0A84FF;
@@ -601,6 +689,11 @@
   .lg\:m-\[0px\] {
     @media (width >= 64rem) {
       margin: 0px;
+    }
+  }
+  .lg\:m-auto {
+    @media (width >= 64rem) {
+      margin: auto;
     }
   }
   .lg\:mt-\[-150px\] {
@@ -748,6 +841,11 @@
       width: 720px;
     }
   }
+  .lg\:w-\[800px\] {
+    @media (width >= 64rem) {
+      width: 800px;
+    }
+  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
@@ -766,6 +864,11 @@
   .lg\:justify-between {
     @media (width >= 64rem) {
       justify-content: space-between;
+    }
+  }
+  .lg\:justify-center {
+    @media (width >= 64rem) {
+      justify-content: center;
     }
   }
   .lg\:gap-\[15px\] {
@@ -811,6 +914,11 @@
   .lg\:p-\[50px_0\] {
     @media (width >= 64rem) {
       padding: 50px 0;
+    }
+  }
+  .lg\:p-\[50px_\] {
+    @media (width >= 64rem) {
+      padding: 50px ;
     }
   }
   .lg\:p-\[70px_0\] {
