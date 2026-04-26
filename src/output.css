@@ -247,8 +247,14 @@
   .h-\[450px\] {
     height: 450px;
   }
+  .w-\[1\] {
+    width: 1;
+  }
   .w-\[4\] {
     width: 4;
+  }
+  .w-\[10\] {
+    width: 10;
   }
   .w-\[15px\] {
     width: 15px;
@@ -274,6 +280,9 @@
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[100\] {
+    width: 100;
+  }
   .w-\[190px\] {
     width: 190px;
   }
@@ -297,6 +306,9 @@
   }
   .w-\[450px\] {
     width: 450px;
+  }
+  .w-\[full\] {
+    width: full;
   }
   .w-full {
     width: 100%;
